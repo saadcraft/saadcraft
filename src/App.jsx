@@ -1,7 +1,7 @@
-import React from 'react';
-import {Routes, Route, useNavigate} from 'react-router-dom';
-import Header,{Footer, NavBar,imgBack} from './Components/header.jsx';
-import About from './Components/About.jsx';
+import React from 'react'
+import {Routes, Route, useNavigate} from 'react-router-dom'
+import Header,{Footer, NavBar,imgBack} from './Components/header.jsx'
+import About from './Components/About.jsx'
 import Skill from './Components/Skill.jsx'
 
 
