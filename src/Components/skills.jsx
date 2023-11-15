@@ -27,13 +27,13 @@ export default [
     id:5,
     name:"React",
     img:"images/logo512.png",
-    condition:"Loading"
+    condition:"done"
   },
   {
     id:6,
     name:"Node.js",
     img:"images/nodeJs.png",
-    condition:"None"
+    condition:"done"
   },
   {
     id:7,
