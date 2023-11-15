@@ -226,6 +226,14 @@ transition: 0.2s;
   }
   .l-person img{
     float: none;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+    width: 100%;
+  }
+  .r-person{
+    font-size: 20px;
+    width: 100%;
   }
 }
 
