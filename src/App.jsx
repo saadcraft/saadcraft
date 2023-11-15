@@ -20,6 +20,8 @@ export default function App(){ //Parent
         console.log(darkMode)
     }
 
+    const contextuse = React.useContext(darkMode);
+
   return (
     <div className={darkMode ? 'site-wrapper dark' :'site-wrapper'}>
       {imgBack}
@@ -30,7 +32,7 @@ export default function App(){ //Parent
                                     <Header />
                                     <Skill />
                                   </div>
-          } 
+                                } 
         />
         <Route path='/about' element={<About /> }  />
       </Routes>
