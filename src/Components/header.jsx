@@ -1,4 +1,4 @@
-import logo from '../images/logo192.png';
+import logo from '../images/Saturation.png';
 import back from '../images/logo512.png';
 
 export default function Header(){ //child
