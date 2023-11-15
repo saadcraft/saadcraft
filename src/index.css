@@ -81,13 +81,36 @@ footer{
 .content-bar{
   position: relative;
   padding: 150px 27px 40px;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.l-person{
+  width: 50%;
+  margin:  0 auto;
+}
+.l-person img{
+  width: 60%;
+  float: right;
+}
+
+.r-person{
+  
+  animation-name: OpacityElement;
+  animation-duration: 3s;
+  transition: opacity 2s;
+  width: 50%;
+  font-size: 50px;
+  text-shadow: 10px 0px 10px black;
+  font-weight:bold;
 }
 
 
 .content-bar > h1{
   letter-spacing: -0.03em;
 }
-
+/*
 .content-bar > ol {
     margin-top: 46px;
     max-width: 400px;
@@ -102,7 +125,7 @@ footer{
   color: #61dafb;
   font-size: 1.4rem;
 }
-
+*/
 .backImg {
   position: fixed;
   right: -285px;

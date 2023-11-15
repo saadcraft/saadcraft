@@ -1,18 +1,32 @@
+import React from 'react'
 import Logo from '../images/saturation.png';
 import Back from '../images/logo512.png';
+import KS from '../images/ks.png';
 
 export default function Header(){ //child
+
+    const WelHome = ["My Name is Saad im a developer WebSite", "You can take a look at my work below","Hello World Welcome to My Portfolio"];
+
+    const [index, setIndex] = React.useState(2)
+        React.useEffect(() => { 
+                setTimeout(() => {
+                    if (index <= WelHome.length - 2){
+                setIndex(index + 1)
+            }else{
+                setIndex(index => index = 0);
+            }
+        }, 4000);
+        
+        }, [index])
+
     return (
         <div className="content-bar">
-            <h1>Fun facts about React</h1>
-            <ol>
-                <li>was first released in 2023</li>
-                <li>was originally created by jordan walke</li>
-                <li>has well 100k start on github</li>
-                <li>is maintained by Facebook</li>
-                <li>Powers thousands of enterprise apps, including mobile app</li>
-            </ol>
-
+            <div className="r-person change">
+                <p>{WelHome[index]}</p>
+            </div>
+            <div className="l-person">
+                <img src={KS} />
+            </div>
         </div>
     )
 }

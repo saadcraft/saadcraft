@@ -58,5 +58,11 @@ export default [
     name:"Polyboard",
     img:"images/polyboard.png",
     condition:"done"
+  },
+  {
+    id:11,
+    name:"Networking Basic",
+    img:"images/networking.png",
+    condition:"done"
   }
 ]
