@@ -1,5 +1,5 @@
-import logo from '../images/saturation.png';
-import back from '../images/logo512.png';
+import Logo from '../images/saturation.png';
+import Back from '../images/logo512.png';
 
 export default function Header(){ //child
     return (
@@ -28,7 +28,7 @@ export function Footer(){ //child
 export function NavBar(props) { 
                 return (
                         <nav className={props.darkmode ? "nav-bar dark": "nav-bar"}>
-                                    <img src={logo} onClick={props.handleMain} />
+                                    <img src={Logo} onClick={props.handleMain} />
                                         <h2 onClick={props.handleMain}>React</h2>
                                         <ul>
                                             <li onClick={props.handleAbout}>About</li>
@@ -54,4 +54,4 @@ export function NavBar(props) {
         </ul>
     </nav> */
 
-export const imgBack = <div className='backImg'><img src={back}/></div>
+export const imgBack = <div className='backImg'><img src={Back}/></div>
