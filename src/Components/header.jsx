@@ -29,7 +29,7 @@ export function NavBar(props) {
                 return (
                         <nav className={props.darkmode ? "nav-bar dark": "nav-bar"}>
                                     <img src={Logo} onClick={props.handleMain} />
-                                        <h2 onClick={props.handleMain}>React</h2>
+                                        <h2 onClick={props.handleMain}>Khouani saad</h2>
                                         <ul>
                                             <li onClick={props.handleAbout}>About</li>
                                         </ul>
