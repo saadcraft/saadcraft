@@ -224,6 +224,9 @@ transition: 0.2s;
   .content-bar{
     display: block;
   }
+  .l-person img{
+    float: none;
+  }
 }
 
 
