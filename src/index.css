@@ -221,6 +221,9 @@ transition: 0.2s;
   .skill span img{
     max-width: 50px;
   }
+  .content-bar{
+    display: block;
+  }
 }
 
 
