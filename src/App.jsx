@@ -13,14 +13,18 @@ export default function App(){ //Parent
     const changeabout = () => history('/about');
     const changemain = () => history('../');
 
-  const [darkMode, setDarkMode] = React.useState(false);
+  const [darkMode, setDarkMode] = React.useState(() => {
+    const savedDarkMode = localStorage.getItem('darkMode');
+    return savedDarkMode !== null ? JSON.parse(savedDarkMode) : false;});
+
+    React.useEffect(() => {
+      localStorage.setItem('darkMode', JSON.stringify(darkMode));
+   }, [darkMode]);
     
     function toggleDarkMode() {
         setDarkMode(prevMode => !prevMode)
         console.log(darkMode)
     }
-
-    const contextuse = React.useContext(darkMode);
 
   return (
     <div className={darkMode ? 'site-wrapper dark' :'site-wrapper'}>
