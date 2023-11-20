@@ -212,6 +212,20 @@ transition: 0.2s;
   z-index: 1;
 }
 
+.cnt{
+  display: flex;
+  justify-content: center;
+  box-shadow: black 0 0 10px 0;
+}
+
+.cnt>div{
+  padding: 20px 50px 20px 50px;
+}
+
+.cnt>div>img {
+  width: 60px;
+}
+
 @media (max-width: 500px) {
   .skill span{
     width: 140px;
@@ -234,6 +248,9 @@ transition: 0.2s;
   .r-person{
     font-size: 25px;
     width: 100%;
+  }
+  .cnt{
+    display: block;
   }
 }
 
@@ -302,16 +319,3 @@ nav.dark .toggler--slider {
   justify-content: flex-end;
 }
 
-.cnt{
-  display: flex;
-  justify-content: center;
-  box-shadow: black 0 0 10px 0;
-}
-
-.cnt>div{
-  padding: 20px 100px 20px 100px;
-}
-
-.cnt>div>img {
-  width: 60px;
-}
