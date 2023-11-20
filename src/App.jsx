@@ -2,6 +2,7 @@ import React from 'react'
 import {Routes, Route, useNavigate} from 'react-router-dom'
 import Header,{Footer, NavBar,imgBack} from './Components/header.jsx'
 import About from './Components/About.jsx'
+import Contact from './Components/contact.jsx'
 import Skill from './Components/Skill.jsx'
 
 
@@ -40,6 +41,7 @@ export default function App(){ //Parent
         />
         <Route path='/about' element={<About /> }  />
       </Routes>
+      <Contact />
       <Footer />
     </div>
   )

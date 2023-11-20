@@ -21,7 +21,7 @@ export default function Header(){ //child
 
     return (
         <div className="content-bar">
-            <div className="r-person change">
+            <div className="r-person">
                 <p>{WelHome[index]}</p>
             </div>
             <div className="l-person">

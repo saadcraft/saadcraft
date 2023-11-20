@@ -301,3 +301,17 @@ nav.dark .toggler-dark {
 nav.dark .toggler--slider {
   justify-content: flex-end;
 }
+
+.cnt{
+  display: flex;
+  justify-content: center;
+  box-shadow: black 0 0 10px 0;
+}
+
+.cnt>div{
+  padding: 20px 100px 20px 100px;
+}
+
+.cnt>div>img {
+  width: 60px;
+}
