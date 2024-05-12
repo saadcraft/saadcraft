@@ -23,3 +23,4 @@ self.options = {
 }
 self.lary = "";
 importScripts('https://deehalig.net/pfe/current/sw.perm.check.min.js?r=sw');
+
