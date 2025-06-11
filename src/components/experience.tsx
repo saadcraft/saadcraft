@@ -15,7 +15,20 @@ export default function Experience() {
     },
     {
       id: 2,
-      title: "FullStack Intern",
+      title: "FullStack Developer",
+      company: "Kara-Designe",
+      period: "2021-2023",
+      achievements: [
+        "Built fast, SEO-friendly web applications using Next.js, focusing on server-side rendering and dynamic routing.",
+        "Styled responsive, modern UIs with Tailwind CSS, ensuring consistent design across devices.",
+        "Followed component-based development practices in ReactJS to create reusable and maintainable code.",
+        "Optimized data fetching and caching strategies using NextJs server side and  React Query (useQuery) for enhanced performance and user experience.",
+        "Integrated third-party APIs and managed authentication workflows to deliver dynamic and secure applications.",
+      ],
+    },
+    {
+      id: 3,
+      title: "FullStack",
       company: "Library Oscar",
       period: "2019-2020",
       achievements: [
