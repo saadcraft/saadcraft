@@ -19,11 +19,13 @@ export default function Experience() {
       company: "Kara-Designe",
       period: "2021-2023",
       achievements: [
-        "Built fast, SEO-friendly web applications using Next.js, focusing on server-side rendering and dynamic routing.",
-        "Styled responsive, modern UIs with Tailwind CSS, ensuring consistent design across devices.",
-        "Followed component-based development practices in ReactJS to create reusable and maintainable code.",
-        "Optimized data fetching and caching strategies using NextJs server side and  React Query (useQuery) for enhanced performance and user experience.",
-        "Integrated third-party APIs and managed authentication workflows to deliver dynamic and secure applications.",
+        "Developed full-stack web applications using React for the frontend and Node.js with Express for the backend, delivering robust and scalable solutions.",
+        "Designed and implemented RESTful APIs with Express, enabling smooth client-server communication and integration with MongoDB.",
+        "Built dynamic, data-driven interfaces with React, leveraging hooks and context API for efficient state management.",
+        "Integrated MongoDB for efficient data storage, retrieval, and aggregation, ensuring high performance and scalability.",
+        "Implemented secure authentication and authorization flows using JSON Web Tokens (JWT) and session management.",
+        "Utilized modern development tools including Postman, MongoDB Compass, and Git for debugging, testing, and version control.",
+        "Collaborated in an agile team environment, participating in code reviews, sprint planning, and continuous deployment pipelines.",
       ],
     },
     {

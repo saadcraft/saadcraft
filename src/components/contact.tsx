@@ -3,7 +3,7 @@
 import type React from "react"
 
 import { useState } from "react"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Linkedin, Mail, Phone } from "lucide-react"
 import Link from "next/link"
 
 export default function Contact() {
@@ -134,6 +134,13 @@ export default function Contact() {
                 >
                   <Mail className="h-5 w-5" />
                   <span>saadkhouani@gmail.com</span>
+                </Link>
+                <Link
+                  href="tel:+213551755666"
+                  className="inline-flex items-center gap-3 text-gray-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-500 transition-colors duration-200"
+                >
+                  <Phone className="h-5 w-5" />
+                  <span>+213551755666</span>
                 </Link>
               </div>
             </div>
