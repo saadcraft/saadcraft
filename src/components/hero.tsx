@@ -1,7 +1,25 @@
-import { ArrowDownIcon } from "lucide-react"
+"use client"
+
+import { ArrowDownIcon, ArrowDownToLine } from "lucide-react"
 import Link from "next/link"
+import { toast } from "sonner";
 
 export default function Hero() {
+
+  const file = "./KhouaniSaad.pdf";
+
+  const fileDownloader = () => {
+    const link = document.createElement('a');
+
+    link.href = file;
+    link.download = 'TAWSILSTAR.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    toast.success("Téléchargement en cours...");
+  };
+
   return (
     <section id="home" className="flex flex-col justify-center min-h-screen py-12 sm:py-24">
       <div className="space-y-6">
@@ -33,6 +51,13 @@ export default function Hero() {
           >
             Contact Me
           </Link>
+          <button
+            onClick={fileDownloader}
+            className="inline-flex items-center cursor-pointer px-6 py-3 rounded-md border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200"
+
+          >
+            Download CV <ArrowDownToLine />
+          </button>
         </div>
       </div>
 
