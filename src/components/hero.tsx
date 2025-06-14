@@ -12,7 +12,7 @@ export default function Hero() {
     const link = document.createElement('a');
 
     link.href = file;
-    link.download = 'TAWSILSTAR.pdf';
+    link.download = 'KhouaniSaad.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
