@@ -43,6 +43,15 @@ export default function Projects() {
       githubUrl: "https://github.com",
       liveUrl: "https://example.com",
     },
+    {
+      id: 4,
+      title: "Razzy Delivery food application",
+      description: "Designed and developed a full-stack food delivery platform including a mobile application, admin dashboard, and backend API.",
+      image: "/razzyapp.png?height=600&width=800",
+      techStack: ["React native", "Expo", "NextJs", "NestJs"],
+      githubUrl: "https://github.com",
+      liveUrl: "https://play.google.com/store/apps/details?id=com.delivry",
+    }
   ]
 
   return (

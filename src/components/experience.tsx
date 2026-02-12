@@ -1,6 +1,20 @@
 export default function Experience() {
   const experiences = [
     {
+      id: 4,
+      title: "FullStack Developer",
+      company: "Own project",
+      period: "2026 - Present",
+      achievements: [
+        "Built a cross-platform mobile app using React Native + Expo",
+        "Developed an admin dashboard with Next.js for store/order management.",
+        "Implemented a scalable backend architecture using NestJS",
+        "Integrated REST APIs and real-time data handling",
+        "Focused on performance, usability, and clean architecture",
+        "Managed end-to-end development from concept to open testing release",
+      ],
+    },
+    {
       id: 1,
       title: "Frontend Developer",
       company: "TawsilStar",
