@@ -1,5 +1,5 @@
 export default function About() {
-  const skills = ["Next.js", "Tailwind CSS", "React", "React Query", "Node.js", "Express.js", "Nest.js", "MongoDB", "TypeScript"]
+  const skills = ["Next.js", "Tailwind CSS", "React", "React Query", "Node.js", "Express.js", "Nest.js", "MongoDB", "TypeScript", "ReactNative", "Expo"]
 
   return (
     <section id="about" className="py-20 scroll-mt-16">
