@@ -27,7 +27,7 @@ export default function Home() {
       </main>
 
       <footer className="py-8 text-center text-sm text-gray-500 dark:text-gray-400">
-        <p>© {new Date().getFullYear()} Saad Khounai. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Saad Khounai. All rights reserved. 2026</p>
       </footer>
     </div>
   )
